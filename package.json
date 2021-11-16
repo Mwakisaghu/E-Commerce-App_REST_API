@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "nodemon index.js"
   },
   "repository": {
     "type": "git",
@@ -16,5 +16,13 @@
   "bugs": {
     "url": "https://github.com/Mwakisaghu/E-Commerce-App_REST_API/issues"
   },
-  "homepage": "https://github.com/Mwakisaghu/E-Commerce-App_REST_API#readme"
+  "homepage": "https://github.com/Mwakisaghu/E-Commerce-App_REST_API#readme",
+  "dependencies": {
+    "add": "^2.0.6",
+    "colors": "^1.4.0",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "mongoose": "^6.0.13",
+    "nodemon": "^2.0.15"
+  }
 }
